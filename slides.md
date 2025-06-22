@@ -29,6 +29,10 @@ seoMeta:
 
 CDK Conference Japan 2025
 
+<!-- 
+それでは、TypeScript エコシステムで築く AWS CDK の品質基盤 というタイトルでお話しさせていただきます。よろしくお願いします
+-->
+
 ---
 src: ./pages/02.self-introduce.md
 ---
