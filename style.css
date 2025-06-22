@@ -1,0 +1,40 @@
+.circle {
+  width: 25px;
+  border-radius: 50%;
+  line-height: 0;
+  position: relative;
+  font-size: 10px;
+}
+
+.circle::after {
+  content: "";
+  display: block;
+  padding-bottom: 100%;
+}
+
+.circle > * {
+  position: absolute;
+  bottom: 50%;
+  width: 100%;
+  text-align: center;
+}
+._bullet li {
+  font-size: 1rem !important;
+  margin-bottom: 0.4rem !important;
+  margin-top: 0.4rem !important;
+}
+._bullet ul {
+  @apply !list-disc text-vprimary;
+  font-size: 1.75rem !important;
+}
+._bullet li::marker {
+  @apply inline-block text-vpurple;
+  font-weight: bold;
+}
+.slidev-code {
+  font-size: 1rem !important;
+  line-height: 1.25rem !important;
+}
+code {
+  color: #6358d4 !important;
+}
