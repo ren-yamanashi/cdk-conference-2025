@@ -13,11 +13,11 @@ const title = ref(props.title);
 
 <template>
 	<div class="flex items-center gap-2 my-4" :class="{ 'opacity-50': disabled }">
-		<div class="circle bg-vpurple text-white">
+		<div class="circle bg-vblue text-white">
 			<div class="circle-txt">{{ number }}</div>
 		</div>
 		<div>
-			<span class="ma-0 pa-0 text-vpurple font-bold text-xl">{{ title }}</span>
+			<span class="ma-0 pa-0 text-vblue font-bold text-xl">{{ title }}</span>
 			<br />
 			<span><slot /></span>
 		</div>

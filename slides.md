@@ -37,4 +37,22 @@ CDK Conference Japan 2025
 src: ./pages/02.self-introduce.md
 ---
 
-test
+---
+src: ./pages/03.cdk-language-use.md
+---
+
+---
+src: ./pages/04.type-system.md
+---
+
+---
+src: ./pages/05.case-cdk.md
+---
+
+---
+src: ./pages/06.case-cdk2.md
+---
+
+---
+src: ./pages/07.case-cdk3.md
+---

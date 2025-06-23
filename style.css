@@ -19,7 +19,7 @@
   text-align: center;
 }
 ._bullet li {
-  font-size: 1rem !important;
+  font-size: 1.25rem !important;
   margin-bottom: 0.4rem !important;
   margin-top: 0.4rem !important;
 }
@@ -28,13 +28,13 @@
   font-size: 1.75rem !important;
 }
 ._bullet li::marker {
-  @apply inline-block text-vpurple;
+  @apply inline-block text-vblue;
   font-weight: bold;
 }
 .slidev-code {
-  font-size: 1rem !important;
-  line-height: 1.25rem !important;
+  font-size: 1.25rem !important;
+  line-height: 1.875rem !important;
 }
 code {
-  color: #6358d4 !important;
+  color: rgb(70, 84, 236) !important;
 }
