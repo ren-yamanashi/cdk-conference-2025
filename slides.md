@@ -59,5 +59,9 @@ src: ./pages/07.what-eslint.md
 ---
 
 ---
+src: ./pages/08.what-eslint-cdk-plugin.md
+---
+
+---
 src: ./pages/n.summary.md
 ---
