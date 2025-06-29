@@ -63,5 +63,25 @@ src: ./pages/08.what-eslint-cdk-plugin.md
 ---
 
 ---
+src: ./pages/09.rule-list.md
+---
+
+---
+src: ./pages/10.no-variable-construct-id-demo.md
+---
+
+---
+src: ./pages/11.no-variable-construct-id.md
+---
+
+---
+src: ./pages/12.no-construct-public-property-of-construct.md
+---
+
+---
+src: ./pages/13.no-construct-public-property-of-construct-demo.md
+---
+
+---
 src: ./pages/n.summary.md
 ---

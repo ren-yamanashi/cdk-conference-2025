@@ -1,5 +1,7 @@
 import { Duration, RemovalPolicy } from "aws-cdk-lib";
-import type { Certificate, ICertificate } from "aws-cdk-lib/aws-certificatemanager";
+import type {
+  ICertificate
+} from "aws-cdk-lib/aws-certificatemanager";
 import {
   AllowedMethods,
   CacheHeaderBehavior,
@@ -73,23 +75,6 @@ export class FileViewer extends Construct {
           }
         ),
       },
-    });
-  }
-}
-
-interface Args {
-  certificate: Certificate;
-  domainName: string;
-}
-
-export class MyConstruct extends Construct {
-  constructor(scope: Construct, myConstructId: string, args: Args) {
-    super(scope, myConstructId);
-
-    new Distribution(this, Distribution.name, {
-      certificate: args.certificate,
-      domainNames: [args.domainName],
-      // ...
     });
   }
 }
