@@ -83,5 +83,9 @@ src: ./pages/13.no-construct-public-property-of-construct-demo.md
 ---
 
 ---
-src: ./pages/n.summary.md
+src: ./pages/14.other-rules.md
+---
+
+---
+src: ./pages/15.summary.md
 ---
