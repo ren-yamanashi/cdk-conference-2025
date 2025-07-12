@@ -1,11 +1,5 @@
-# Welcome to [Slidev](https://github.com/slidevjs/slidev)!
+# CDK Conference 2025 登壇資料
 
-To start the slide show:
-
-- `pnpm install`
-- `pnpm dev`
-- visit <http://localhost:3030>
-
-Edit the [slides.md](./slides.md) to see the changes.
-
-Learn more about Slidev at the [documentation](https://sli.dev/).
+- title: TypeScript エコシステムで築く AWS CDK の品質基盤
+- slide: https://ren-yamanashi.github.io/cdk-conference-2025/1
+- speaker-note: https://ren-yamanashi.github.io/cdk-conference-2025/presenter/1
